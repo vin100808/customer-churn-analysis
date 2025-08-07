@@ -39,6 +39,8 @@ A machine learning project to predict customer churn and identify key drivers us
 
 ## 📁 File Structure
 
+<pre><code>```bash customer-churn-analysis/ ├── data/ │ ├── WA_Fn-UseC_-Telco-Customer-Churn.csv │ ├── cleaned_data.csv │ └── cleaned_data.pkl │ ├── notebooks/ │ ├── 01_data_cleaning.ipynb │ ├── 02_eda_visualization.ipynb │ ├── 03_modeling.ipynb │ └── output/ │ ├── classification_report_xgb.txt │ ├── classification_report_rf.txt │ ├── feature_importance_xgb.png │ └── feature_importance_rf.png │ ├── dashboard/ │ └── churn_dashboard.twbx │ ├── requirements.txt ├── README.md └── .gitignore ```</code></pre>
+
 customer-churn-prediction/
 │
 ├── data/                       
